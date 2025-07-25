@@ -1,0 +1,22 @@
+{
+  "name": "telbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode": "^1.5.4",
+    "telegram": "^2.26.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
